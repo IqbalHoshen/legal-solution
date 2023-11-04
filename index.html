@@ -417,10 +417,10 @@
                 injected humour.</p>
 
             <!-- section 4 -->
-            <section class="flex mt-16">
-                <div class="grid lg:grid-cols-2">
+            <section class="flex justify-center mt-16">
+                <div class="grid lg:grid-cols-2 w-1/2">
                     <div
-                        class="card bg-[#F3F3F3] p-16 rounded-none border-b-[1px] border-r-[1px] border-solid border-[#CFCFCF]">
+                        class="card bg-[#F3F3F3] px-5 rounded-none border-b-[1px] border-r-[1px] border-solid border-[#CFCFCF]">
                         <figure class="px-10 pt-10">
                             <img src="images/location.png" alt="Shoes" class="" />
                         </figure>
@@ -431,7 +431,7 @@
 
                         </div>
                     </div>
-                    <div class="card bg-[#F3F3F3] p-16 rounded-none border-b-[1px] border-solid border-[#CFCFCF]">
+                    <div class="card bg-[#F3F3F3] px-5 rounded-none border-b-[1px] border-solid border-[#CFCFCF]">
                         <figure class="px-10 pt-10">
                             <img src="images/call.png" alt="Shoes" class="" />
                         </figure>
@@ -443,7 +443,7 @@
 
                         </div>
                     </div>
-                    <div class="card bg-[#F3F3F3] p-16 rounded-none border-r-[1px] border-solid border-[#CFCFCF]">
+                    <div class="card bg-[#F3F3F3] px-5 rounded-none border-r-[1px] border-solid border-[#CFCFCF]">
                         <figure class="px-10 pt-10">
                             <img src="images/email.png" alt="Shoes" class="" />
                         </figure>
@@ -454,7 +454,7 @@
 
                         </div>
                     </div>
-                    <div class="card bg-[#F3F3F3] p-16 rounded-none">
+                    <div class="card bg-[#F3F3F3] px-5 rounded-none">
                         <figure class="px-10 pt-10">
                             <img src="images/time.png" alt="Shoes" class="rounded-xl" />
                         </figure>
@@ -468,7 +468,20 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="w-1/2">
+                    <form class="card-body -mt-8">
+                        <div class="form-control popping space-y-8">
+                            <input type="name" placeholder="Your Name" class="input py-10 bg-[#F3F3F3]" required />
+                            <input type="email" placeholder="Your Email" class="input py-10 bg-[#F3F3F3]" required />
+                            <input type="name" placeholder="Subject" class="input py-10 bg-[#F3F3F3]" required />
+                            <textarea class="textarea pb-24 bg-[#F3F3F3]" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="form-control mt-8">
+                            <button
+                                class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg popping text-white text-xl font-semibold bg-[#B68C5A]">Send
+                                Message</button>
+                        </div>
+                    </form>
 
                 </div>
 
